@@ -6,8 +6,9 @@ es6环境
 react
 react-router v4
 redux
-
+已完成100%
 ### 第二阶段
+借鉴Ducks目录规划
 redux-saga
 await async及generator模拟
 
