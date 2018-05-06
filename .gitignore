@@ -1,7 +1,7 @@
 # qzz/fekit/grunt
 /ver/
 /dev/
-/prd/
+/dist/
 /refs/
 /node_modules/
 ykit.hosts
