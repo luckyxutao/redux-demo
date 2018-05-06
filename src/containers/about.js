@@ -18,7 +18,7 @@ class About extends PureComponent {
                 <div onClick={() => { setUserAge(25)}}>setAge25</div>
                 <div onClick={() => { dispatch(push(`/topics`)) }}>查看tweetlist</div>
 				<div className="content">
-                    <div>姓名是:{this.props.user.name}</div>
+                    <div>姓名是2:{this.props.user.name}</div>
                     <div>age是:{this.props.user.age}</div>
                 </div>
 			</div>
