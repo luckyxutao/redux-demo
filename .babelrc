@@ -1,0 +1,26 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "browsers": [
+                        "Android >= 4.0",
+                        "ios >= 6"
+                    ]
+                },
+                "debug": true,
+                "include": [],
+                "useBuiltIns": true
+            }
+        ],
+        "react"
+    ],
+    "plugins": [
+        ["transform-decorators-legacy"],
+        ["transform-decorators"],
+        ["transform-object-rest-spread"],
+        ["transform-class-properties"],
+        ["syntax-class-properties"]
+    ]
+}
