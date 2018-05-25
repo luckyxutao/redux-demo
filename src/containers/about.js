@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions/user';
 import { push } from 'react-router-redux';
-
+import './about.scss';
 
 // @connect((state, ownProps)=>{
 //     return { user : state.user };
