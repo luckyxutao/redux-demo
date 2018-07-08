@@ -14,13 +14,13 @@ class About extends PureComponent {
         console.log(this.props)
 		return (
 			<div className="page-about">
-                <div onClick={() => { setUserName('taotao');}}>setName taotao</div>
-                <div onClick={() => { setUserAge(25)}}>setAge25</div>
-                <div onClick={() => { dispatch(push(`/topics`)) }}>查看tweetlist</div>
-				<div className="content">
-                    <div>姓名是2:{this.props.user.name}</div>
+                <div onClick={() => { setUserName('taotao');}}>set Name to taotao</div>
+                <div onClick={() => { setUserAge(25)}}>set Age to25</div>
+                <div className="content">
+                    <div>姓名是:{this.props.user.name}</div>
                     <div>age是:{this.props.user.age}</div>
                 </div>
+                <div onClick={() => { dispatch(push(`/topics`)) }}>查看tweetlist</div>
 			</div>
 		);
 	}
